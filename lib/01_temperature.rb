@@ -11,6 +11,3 @@ def ctof (celsius)
         return fahrenheit.to_f
     end
 end
-
-
-ctof(0)
