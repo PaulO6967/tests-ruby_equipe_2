@@ -17,8 +17,8 @@ def start_of_word(word, n=1)
   return word[0..n-1]
 end
 
-def first_word(sentance)
-  return sentance.split.first
+def first_word(sentence)
+  return sentence.split.first
 end
 
 def titleize(title)
