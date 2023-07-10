@@ -19,4 +19,10 @@ def reverse_upcase_noLTA (crazy_stuff)
     #nolta (delete /include /split)
 end
 
+def array_42 (look)
+  return look.any? {|item| item == 42 }
+end
 
+def magic_array (num)
+  return num.flatten(3).sort.collect { |n| n * 2 }.reject {|n| n % 3 == 0}.uniq.sort
+end
